@@ -8,6 +8,16 @@
     * Cards may have different amount of numbers. 
 
 """
+
+def mask_credit_card(card_number):
+    """
+    :param card_number:
+    :return:
+    """
+    return "XXXX-XXXX-XXXX-{}".format(card_number[-4:])
+
+print(mask_credit_card("1234567890123456"))
+
 # Sol 1
 
 ## Step 1
